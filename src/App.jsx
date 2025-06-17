@@ -7,6 +7,8 @@ import Skill from "./components/skill/Skill";
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import BrushIcon from '@mui/icons-material/Brush';
 import TerminalIcon from '@mui/icons-material/Terminal';
+import ContactForm from "./components/form/ContactForm";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const StyledBafge = styled(Badge)(({ theme }) => ({
@@ -68,6 +70,8 @@ function App() {
       <Skill iconColor="#5503c4" Icon={BrushIcon} title="تصميم واجهات" description={"تصميم واجهات مستخدم و متخصص في انشاء تطبيقات ويب حديثه باستخدام احدث التقنيات"}/>
       <Skill iconColor="#06a014" Icon={PhoneIphoneIcon} title="تطبيقات متجاوبه" description={"تطوير في تطبيقات متجاوبه باستخدام احدث التقنيات"}/>
     </Stack>
+    <ContactForm/>
+    <Footer/>
               </Box>
   );
 }
